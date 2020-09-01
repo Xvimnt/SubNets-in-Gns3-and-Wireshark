@@ -1,0 +1,22 @@
+Aug 31 19:47:42.127 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 31 19:47:42.127 HYPERVISOR: Started on IP = localhost, TCP port = 49835.
+Aug 31 19:47:42.611 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 31 19:47:42.611 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Dell Optiplex 990\GNS3\projects\Practica2\project-files\dynamips 
+Aug 31 19:47:42.611 GENERAL: working_dir=C:\Users\Dell Optiplex 990\GNS3\projects\Practica2\project-files\dynamips
+Aug 31 19:47:42.611 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Aug 31 19:47:43.924 HYPERVISOR: exec_cmd: nio create_udp udp-9d874a92-aa11-4796-82a5-7ad10115b673 10004 127.0.0.1 10005 
+Aug 31 19:47:43.939 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-9d874a92-aa11-4796-82a5-7ad10115b673 
+Aug 31 19:47:43.971 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-9d874a92-aa11-4796-82a5-7ad10115b673 1 
+Aug 31 19:47:44.049 HYPERVISOR: exec_cmd: nio create_udp udp-834a0b73-eaf5-4a52-8a16-2a24a461740f 10007 127.0.0.1 10006 
+Aug 31 19:47:44.049 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-834a0b73-eaf5-4a52-8a16-2a24a461740f 
+Aug 31 19:47:44.064 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-834a0b73-eaf5-4a52-8a16-2a24a461740f 1 
+Aug 31 19:47:44.143 HYPERVISOR: exec_cmd: nio create_udp udp-3e559212-448e-44bb-8841-b58e070c8531 10009 127.0.0.1 10008 
+Aug 31 19:47:44.143 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-3e559212-448e-44bb-8841-b58e070c8531 
+Aug 31 19:47:44.158 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-3e559212-448e-44bb-8841-b58e070c8531 1 
+Aug 31 19:47:45.112 HYPERVISOR: exec_cmd: nio create_udp udp-f277a55e-fa11-450f-bc89-9053e213ef8b 10011 127.0.0.1 10010 
+Aug 31 19:47:45.112 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-f277a55e-fa11-450f-bc89-9053e213ef8b 
+Aug 31 19:47:45.127 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-f277a55e-fa11-450f-bc89-9053e213ef8b 1 
+Aug 31 20:14:32.114 HYPERVISOR: exec_cmd: ethsw delete Switch2 
+Aug 31 20:14:32.181 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 31 20:14:32.351 HYPERVISOR: Stopped.
+Aug 31 20:14:32.351 GENERAL: reset done.
